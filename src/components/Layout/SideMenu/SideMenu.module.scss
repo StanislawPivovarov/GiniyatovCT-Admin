@@ -1,0 +1,22 @@
+.logo {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        height: 100px;
+        width: auto;
+    }
+
+.side_menu {
+    height: fit-content;
+    @media(min-width: 768px) {
+        height: 100vh;
+    }
+}
+
+.menu {
+    border: none;
+    height: 100%;
+}
